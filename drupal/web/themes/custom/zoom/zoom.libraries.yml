@@ -1,0 +1,10 @@
+style:
+  version: VERSION
+  css:
+    theme:
+      assets/css/zoom.style.css: {}
+  js:
+    assets/js/zoom.script.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
