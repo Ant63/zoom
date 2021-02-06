@@ -8,24 +8,24 @@ box/local.config.yml
 *.local
 
 # Ignore drupal core.
-web/core
+drupal/web/core
 
 # Ignore paths that contain user-generated content.
-web/sites/*/files
+drupal/web/sites/*/files
 /files-private
-web/sites/*/private
+drupal/web/sites/*/private
 
 # Ignore contrib modules. These should be created during build process.
-web/modules/contrib
-web/themes/contrib
-web/profiles/contrib
-web/libraries
+drupal/web/modules/contrib
+drupal/web/themes/contrib
+drupal/web/profiles/contrib
+drupal/web/libraries
 drush/Commands
 
 # Ignore custom theme build artifacts
-web/themes/custom/*/node_modules
-web/themes/custom/*/css
-web/themes/custom/*/styleguide
+drupal/web/themes/custom/*/node_modules
+drupal/web/themes/custom/*/css
+drupal/web/themes/custom/*/styleguide
 
 # Ignore build artifacts
 deployment_identifier
